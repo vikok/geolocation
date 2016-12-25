@@ -899,4 +899,8 @@ select {
   transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
 }
 
+.ba-map {
+  height: 400px;
+}
+
 /*# sourceMappingURL=style.css.map */
