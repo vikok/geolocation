@@ -24,20 +24,26 @@
 		    <h1>Waypoints</h1>
 		    	<!-- BEGIN ba-map  -->
 		    	<div class="ba-map">
-<!-- 		    	    BEGIN ba-poltava
-<div class="ba-poltava">
-    <h2>Poltava office</h2>
-    <p>Nezalezhnosti sq, 7</p>
-</div>
-END ba-poltava
-BEGIN ba-poltava-other
-<div class="ba-poltava-other">
-    <h2>Poltava hotel</h2>
-    <p>Shevchenko st, 112</p>
-</div>
-END ba-poltava-other -->
+
+
 		    	</div>
 		    	<!-- END ba-map -->
+    <div id="floating-panel">
+    <b>Start: </b>
+    <select id="start" onchange="calcRoute();">
+      <option value="poltava">Poltava</option>
+      <option value="kyiv">Kyiv</option>
+      <option value="odessa">Odessa</option>
+      <option value="lviv">Lviv</option>
+    </select>
+    <b>End: </b>
+    <select id="end" onchange="calcRoute();">
+      <option value="poltava">Poltava</option>
+      <option value="kyiv">Kyiv</option>
+      <option value="odessa">Odessa</option>
+      <option value="lviv">Lviv</option>
+    </select>
+    </div>
 		</div>
 		<!-- END ba-container -->
 	</header>
